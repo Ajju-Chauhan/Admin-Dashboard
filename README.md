@@ -44,3 +44,20 @@ user-dashboard/
 │ └── index.js # React entry point
 ├── package.json
 └── README.md
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or newer)
+- npm (comes with Node.js)
+
+### 🔧 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/yourusername/user-dashboard.git
+cd user-dashboard
