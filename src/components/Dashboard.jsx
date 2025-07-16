@@ -59,7 +59,7 @@ export default function Dashboard() {
   }).length;
 
   return (
-    <div className="d-flex min-vh-100 bg-light">
+    <div className="d-flex min-vh-100 min-vw-100 bg-light">
       <Sidebar />
       <div
         className="flex-grow-1"
