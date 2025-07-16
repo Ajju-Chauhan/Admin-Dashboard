@@ -27,23 +27,6 @@ A responsive **User Dashboard** built with **React**, **Bootstrap 5**, and **HTM
 
 ---
 
-## 📁 Folder Structure
-
-user-dashboard/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── Sidebar.js # Sidebar navigation
-│ │ ├── Dashboard.js # Users and login activity display
-│ │ ├── Capture.js # Webcam capture page
-│ │ ├── LinkDevice.js # QR code and manual code linking
-│ │ ├── Login.js # Login form UI
-│ │ └── WaitingApproval.js # Polling UI for login approval
-│ ├── App.js # App routes and layout
-│ └── index.js # React entry point
-├── package.json
-└── README.md
 
 ---
 
@@ -51,7 +34,6 @@ user-dashboard/
 
 ### ✅ Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14 or newer)
 - npm (comes with Node.js)
 
 ### 🔧 Installation
@@ -59,5 +41,5 @@ user-dashboard/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/user-dashboard.git
+https://github.com/Ajju-Chauhan/Admin-Dashboard.git
 cd user-dashboard
