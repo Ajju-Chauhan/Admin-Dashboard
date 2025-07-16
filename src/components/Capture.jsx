@@ -1,4 +1,3 @@
-// src/components/Capture.js
 import React, { useEffect, useRef } from "react";
 
 export default function Capture() {
