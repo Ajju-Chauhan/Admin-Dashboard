@@ -4,6 +4,7 @@ import Capture from "./components/Capture";
 import LinkDevice from "./components/LinkDevice";
 import Login from "./components/Login";
 import WaitingApproval from "./components/WaitingApproval";
+import Users from "./components/users";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -25,6 +26,7 @@ function App() {
           element={<LinkDevice qrData={dummyQr} linkCode={dummyCode} expiresAt={dummyExpiresAt} />}
         />
         <Route path="/login" element={<Login />} />
+        <Route path="/users" element={<Users />} />
         <Route
           path="/waiting-approval"
           element={<WaitingApproval loginId={dummyLoginId} />}

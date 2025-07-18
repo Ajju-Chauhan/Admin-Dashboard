@@ -104,47 +104,7 @@ export default function Dashboard() {
             </Col>
           </Row>
 
-          <Row>
-            <Col xs={12}>
-              <Card className="shadow-sm">
-                <Card.Body>
-                  <Card.Title>User List</Card.Title>
-                  {users.length === 0 ? (
-                    <div className="text-center py-5">
-                      <Spinner animation="border" />
-                    </div>
-                  ) : (
-                    <div className="table-responsive">
-                      <Table striped bordered hover responsive className="mt-3">
-                        <thead className="table-dark">
-                          <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Role</th>
-                            <th>Status</th>
-                            <th>Join Date</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {users.map((user) => (
-                            <tr key={user.id}>
-                              <td>{user.id}</td>
-                              <td>{user.name}</td>
-                              <td>{user.email}</td>
-                              <td>{user.role}</td>
-                              <td>{user.status}</td>
-                              <td>{user.joinDate}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </Table>
-                    </div>
-                  )}
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+          
         </Container>
       </div>
 
